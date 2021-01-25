@@ -1,0 +1,83 @@
+body {
+  background-color: red;
+}
+@font-face {
+  font-family: ‘Poke’;
+  src: url(./PokeBlack.ttf);
+}
+.App {
+  width: 80%;
+  height: 100%;
+  padding: 1%;
+  border-radius: 10%;
+  text-align: center;
+  display: contents;
+}
+.form-search {
+  padding: 1%;
+  margin: 0% 30%;
+  border-radius: 20px;
+}
+button {
+  background-color: aquamarine;
+  width: 10%;
+  padding: 7% 6% 4%;
+  margin-left: 10%;
+  border-radius: 29px;
+}
+input {
+  font-family: ‘Poke’;
+  letter-spacing: 1px;
+  background-color: yellow;
+  border-radius: 15px;
+}
+.content {
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: space-around;
+  font-family: ‘Poke’;
+  background-color: white;
+  border-width: 40px;
+  border-color: grey;
+  border-radius: 50px 50px 0px 0px;
+  border-style: solid;
+}
+
+.list-mov,
+.name-poke,
+.type-pokemon {
+  text-transform: capitalize;
+  list-style: none;
+}
+.img-poke {
+  width: 150%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
